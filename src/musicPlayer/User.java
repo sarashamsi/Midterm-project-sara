@@ -9,7 +9,7 @@ public class User {
     private ArrayList<User> followingList ;
     private UserBehavior behavior ;
     private ArrayList<Playlist> playlists ;
-    private static ArrayList<User> allUsers ;
+    private static ArrayList<User> allUsers = new ArrayList<>() ;
 
     // constructor
     public User(String username , String password) throws InvalidOperationException {
